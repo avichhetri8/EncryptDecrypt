@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/lWQ3C7/5qg=",
+  "dgSpecHash": "jgw7SEUrnxY=",
   "success": true,
   "projectFilePath": "C:\\Users\\Avi Chhetri\\source\\repos\\Helper\\Helper.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Avi Chhetri\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512"
+  ],
   "logs": []
 }
