@@ -12,7 +12,7 @@ namespace Helper
 {
     public class SignatureHelper
     {
-        public static string generateSignature(string data, string privateKeyPath)
+        public static string GenerateSignature(string data, string privateKeyPath)
         {
             StringBuilder pri = new StringBuilder();
             pri.Append("-----BEGIN RSA PRIVATE KEY-----\r\n");
@@ -43,7 +43,7 @@ namespace Helper
 
         }
 
-        public static bool verifySignature(string data, string publicKeyPath, byte[] signature)
+        public static bool VerifySignature(string data, string publicKeyPath, byte[] signature)
         {
             StringBuilder publicKeyPemStr = new StringBuilder();
             publicKeyPemStr.Append("-----BEGIN PUBLIC KEY-----\r\n");
